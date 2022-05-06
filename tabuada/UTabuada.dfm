@@ -1,0 +1,70 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  BiDiMode = bdLeftToRight
+  Caption = 'Tabuada'
+  ClientHeight = 363
+  ClientWidth = 554
+  Color = clNavy
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  ParentBiDiMode = False
+  Position = poDesktopCenter
+  OnActivate = FormActivate
+  OnClose = FormClose
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Edit1: TEdit
+    Left = 192
+    Top = 48
+    Width = 121
+    Height = 21
+    TabOrder = 0
+  end
+  object BitBtn1: TBitBtn
+    Left = 32
+    Top = 46
+    Width = 75
+    Height = 25
+    Caption = 'Limpar'
+    TabOrder = 1
+    OnClick = BitBtn1Click
+  end
+  object BitBtn2: TBitBtn
+    Left = 392
+    Top = 48
+    Width = 75
+    Height = 25
+    Caption = 'Mostrar'
+    TabOrder = 2
+    OnClick = BitBtn2Click
+  end
+  object BitBtn3: TBitBtn
+    Left = 392
+    Top = 120
+    Width = 75
+    Height = 25
+    Caption = 'Sair'
+    TabOrder = 3
+    OnClick = BitBtn3Click
+  end
+  object ListBox1: TListBox
+    Left = 192
+    Top = 120
+    Width = 121
+    Height = 209
+    Color = clBlack
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clBlue
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ItemHeight = 19
+    ParentFont = False
+    TabOrder = 4
+  end
+end
